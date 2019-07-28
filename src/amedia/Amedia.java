@@ -19,7 +19,7 @@ public class Amedia extends Application { // Application class is just an entry 
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml")); // FXML is a XML-based user interface markup language,  You can create your user interface directly by code, or in the fxml file with a .fxml postfix
         
         Scene scene = new Scene(root);
         
@@ -31,7 +31,7 @@ public class Amedia extends Application { // Application class is just an entry 
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        launch(args); // launches javaFx applicationn this method is located in Application class
+        launch(args); // launches javaFx application this method is located in Application class
     }
     
 }

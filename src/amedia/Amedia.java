@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  *
  * @author arjun
  */
-public class Amedia extends Application {
+public class Amedia extends Application { // Application class is just an entry point in the current application
     
     @Override
     public void start(Stage stage) throws Exception {
@@ -31,7 +31,7 @@ public class Amedia extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        launch(args);
+        launch(args); // launches javaFx applicationn this method is located in Application class
     }
     
 }
